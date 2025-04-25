@@ -1,6 +1,20 @@
 # HR_Attrition-Dashboard
 This Data Analysis Project aims to generate insights into the HR attrition performance over a period of time. By analysis the various parameter in the data recieved we eek to gather insight to make reasonable decisions  which will enable us to tell a compelling story from the insight gotten.
 
+[Overview](#overview)
+
+[Data Source](#data-source)
+
+[Methods and Tools](#methods-and-tools)
+
+[Insights and Findings](#insights-and-findings)
+
+[Data Cleaning and Preparation](#data-cleaning-and-preparation)
+
+[Data Analysis](#data-analysis)
+
+[Conclusion](#conclusion)
+
 ### Overview
 ---
 Employee attrition is a major challenge for organizations as it leads to the loss of skilled labor, increased recruitment costs, and potential drops in productivity.
@@ -34,18 +48,16 @@ In the initial phase of the data cleaning and preparation, i perform the followi
 - Checking for missing variable
 - Data cleaning and formating
 
-### Exporatory Data Analysis (EDA)
+### Data Analysis
 ---
-The EDA involved the exploring of the data to answer some question about the data such as
+The Exploratory data analysis involved the exploring of the data to answer some question about the data such as
 - Overall Job Satisfaction
 - Attrition by Department
 - Attrition by Environment Satisfaction
 - Attrition by Gender
-- Attrition by EDuctaion Field
-
-### Data Analysis
----
-This is where i include some basic lines of code or queries used during my analysis
+- Attrition by Education Field
+  
+This is also where i include some basic lines of code or queries used during my analysis
 
 ```SQL
 SELECT Attrition, Count(*) as Attrition_Count,
@@ -73,3 +85,9 @@ Group by YearsAtCompany,Department,
 YearsInCurrentRole, YearsSinceLastPromotion
 Order by Department, TotalLeft DESC;
 ```
+
+### Conclusion / Recommendation
+- Focus on employee engagement programs targeting job satisfaction.
+- Conduct departmental reviews for high-attrition teams.
+
+
