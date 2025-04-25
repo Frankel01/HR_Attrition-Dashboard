@@ -21,7 +21,7 @@ Employee attrition is a major challenge for organizations as it leads to the los
 This project aims to identify the key factors driving employee attrition and help Human Resources make informed, data-backed decisions to improve retention.
 
 ### Data Source
-The dataset was sourced from Kaggle.com, a platform for open and real time datasets.
+The dataset was sourced from Kaggle a platform for open and real time datasets [Click Here](https://www.kaggle.com/)
 
 ### Methods and Tools
 ---
