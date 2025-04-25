@@ -57,7 +57,7 @@ The Exploratory data analysis involved the exploring of the data to answer some 
 - Attrition by Gender
 - Attrition by Education Field
   
-This is also where i include some basic lines of code or queries used during my analysis
+This is also where i include few basic lines of code or queries used during my analysis
 
 ```SQL
 SELECT Attrition, Count(*) as Attrition_Count,
