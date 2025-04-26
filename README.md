@@ -51,6 +51,7 @@ In the initial phase of the data cleaning and preparation, i perform the followi
 
 
 ### Conclusion / Recommendation
+---
 - Focus on employee engagement programs targeting job satisfaction.
 - Conduct departmental reviews for high-attrition departments and job roles
 - Encourage work-life balance to employees working overtime
