@@ -21,7 +21,8 @@ Employee attrition is a major challenge for organizations as it leads to the los
 This project aims to identify the key factors driving employee attrition and help Human Resources make informed, data-backed decisions to improve retention.
 
 ### Data Source
-The dataset was sourced from Kaggle a platform for open and real time datasets [Click Here](https://www.kaggle.com/)
+---
+The dataset was sourced from Kaggle a platform for open and real time datasets [Click Here](https://www.kaggle.com/datasets/amirazizdatascience/hr-employee-attrition)
 
 ### Methods and Tools
 ---
@@ -33,6 +34,13 @@ The dataset was sourced from Kaggle a platform for open and real time datasets [
 
 - Github: For portifolio building.
 
+### Data Cleaning and Preparation 
+---
+In the initial phase of the data cleaning and preparation, i perform the following action
+- Data loading and inspection
+- Checking for missing variable
+- Data cleaning and formating
+
 ### Insights and Findings
 ---
 - Employees with low job satisfaction and work-life balance had higher attrition rates.
@@ -41,53 +49,11 @@ The dataset was sourced from Kaggle a platform for open and real time datasets [
 
 - Overtime and longer working hours were positively correlated with attrition.
 
-### Data Cleaning and Preparation 
----
-In the initial phase of the data cleaning and preparation, i perform the following action
-- Data loading and inspection
-- Checking for missing variable
-- Data cleaning and formating
-
-### Data Analysis
----
-The Exploratory data analysis involved the exploring of the data to answer some question about the data such as
-- Overall Job Satisfaction
-- Attrition by Department
-- Attrition by Environment Satisfaction
-- Attrition by Gender
-- Attrition by Education Field
-  
-This is also where i include few basic lines of code or queries used during my analysis
-
-```SQL
-SELECT Attrition, Count(*) as Attrition_Count,
-AVG(MonthlyRate) as AVGSalary
-from HR_Data
-Where Attrition = 1
-Group by Attrition
-Order by AVGSalary DESC;
-```
-```SQL
-SELECT HR_Data.Department, HR_Data.JobRole, 
-Count(*) AS Attrition_Count
-From HR_Data
-Where Attrition = 1
-Group By HR_Data.Department, HR_Data.JobRole
-Order By Attrition_Count DESC;
-```
-```SQL
-SELECT Department, YearsAtCompany, 
-YearsInCurrentRole, 
-YearsSinceLastPromotion, COUNT(*) AS TotalLeft
-From HR_Data
-where Attrition = 1 
-Group by YearsAtCompany,Department, 
-YearsInCurrentRole, YearsSinceLastPromotion
-Order by Department, TotalLeft DESC;
-```
 
 ### Conclusion / Recommendation
 - Focus on employee engagement programs targeting job satisfaction.
-- Conduct departmental reviews for high-attrition teams.
+- Conduct departmental reviews for high-attrition departments and job roles
+- Encourage work-life balance to employees working overtime
+- Improve internal communication and relationship amongs staffs.
 
 
